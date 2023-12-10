@@ -30,4 +30,34 @@ Frontend Developer specializing in web application development using React libra
   [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
   [![Axios](https://img.shields.io/badge/Axios-35495E?style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
 
+  ## Some live projects
+  
+## Project: GrowHub
+
+## GrowHub 
+
+- **Laning page:** [growhub.com.pl](https://growhub.com.pl)
+- **Application:** [app.growhub.com.pl](https://app.growhub.com.pl)
+
+## Description
+GrowHub is an application designed for business valuation. This project is a web application developed using React with TypeScript for a type-safe development experience. It employs Tailwind CSS for styling, providing a utility-first approach. The application utilizes React Hook Form for efficient form state management.
+In depends of user`s needs he can buy only access to the application or also get consultations. Payment is connected with stripe. We used there an auth provider. After successfull payment magic link is being send to the email provided in the payment. That creates read-only cookie which is authenthicated by an auth provider. After that user sees application, where he can fill 2 forms (handled with react-hook-form) that are send to the API. Backend is calculating everything based on respective formulae. Frontend is fetching the data and displays dashboard with charts, evaluations and possible PDF report. There is also consultations logic, connected with calendly and stripe user can book the consultations with an expert. Table with consultations is displayed to the user, he is able to see the available ones or used. If user has an admin role he is also able to enter the admin panel section, there is table with all users. This table can be exported to .csv file.
+
+## Tech Stack
+
+- **Framework:** React
+- **Language:** JavaScript/TypeScript
+- **Styling:** JoyUI + Tailwind CSS
+- **Form Handling:** React Hook Form + zod
+- **Routing:** React Router
+- **Build Tool:** Vite
+- **Other Tools:** React-hot-toast, React-to-pdf, React-csv, Propel Auth, recharts, Husky
+- **Linting and Formatting:** ESLint, Prettier
+- **Deployment:** Cloudflare Pages
+- **Error Tracking:** Sentry
+
+**Note:** For more specific details about the features, functionalities or some code examples I would be glad to show during the interview.
+
+  
+
 
