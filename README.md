@@ -29,7 +29,7 @@ Frontend Developer specializing in web application development using React libra
   [![Axios](https://img.shields.io/badge/Axios-35495E?style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
 
 
-# Some Live Projects
+# Example Live Project
 
 
 ## GrowHub
@@ -73,59 +73,6 @@ Admins access a dedicated panel with a user table exportable to a .csv file.
 - **Linting and Formatting:** ESLint, Prettier
 - **Deployment:** Cloudflare Pages
 - **Error Tracking:** Sentry
-
-## AIsays
-
-- **Application:** [aisays.pl](https://aisays.pl/)
-
-### Description
-
-AIsays, a dynamic web app developed with React and TypeScript, ensures a robust and type-safe development environment. It leverages the Chakra UI library for customizable styling and Tailwind CSS for utility-first styles.
-
-### Form and State Management
-
-Formik handles form input seamlessly, while Jotai facilitates flexible and scalable state management.
-
-### Stylish Icons and UI Elements
-
-Chakra UI Icons and React Icons enhance the visual appeal, offering a wide range of stylish icons.
-
-### Animation and Motion
-
-Framer Motion elevates the user experience with smooth animations and transitions.
-
-### Routing and Navigation
-
-React Router ensures seamless navigation and routing for an intuitive user journey.
-
-### Markdown Rendering
-
-React Markdown enables the presentation of rich text and content formatting.
-
-### Data Query and Fetching
-
-React Query streamlines data fetching and management for a responsive user experience.
-
-### Validation and Schema
-
-Yup simplifies form validation with an intuitive schema definition.
-
-### Deployment and Build
-
-Vite serves as the build tool, delivering fast and efficient development builds. The application is deployed on Cloudflare Pages for reliable hosting and scalability.
-
-### Tech Stack
-
-- **Framework:** React
-- **Language:** JavaScript/TypeScript
-- **Styling:** Chakra UI
-- **Form Handling:** Formik + Yup
-- **Data Fetching State Management:** TanStack Query
-- **Routing:** React Router
-- **Build Tool:** Vite
-- **Other Tools:** React-hot-toast
-- **Linting and Formatting:** ESLint, Prettier
-- **Deployment:** Cloudflare Pages
 
 **Note:** Specific details, features, and code examples can be discussed in more depth in person.
 
