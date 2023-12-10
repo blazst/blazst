@@ -117,7 +117,7 @@ Vite serves as the build tool, delivering fast and efficient development builds.
 ### Tech Stack
 
 - **Framework:** React
-- - **Language:** JavaScript/TypeScript
+- **Language:** JavaScript/TypeScript
 - **Styling:** Chakra UI
 - **Form Handling:** Formik + Yup
 - **Data Fetching State Management:** TanStack Query
