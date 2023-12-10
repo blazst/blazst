@@ -117,7 +117,8 @@ Vite serves as the build tool, delivering fast and efficient development builds.
 ### Tech Stack
 
 - **Framework:** React
-- **UI Libraries:** Chakra UI, Tailwind CSS
+- - **Language:** JavaScript/TypeScript
+- **Styling:** Chakra UI
 - **Form Handling:** Formik + Yup
 - **Data Fetching State Management:** TanStack Query
 - **Routing:** React Router
@@ -126,7 +127,7 @@ Vite serves as the build tool, delivering fast and efficient development builds.
 - **Linting and Formatting:** ESLint, Prettier
 - **Deployment:** Cloudflare Pages
 
-**Note:** Specific details, features, and code examples can be discussed in more depth during an interview.
+**Note:** Specific details, features, and code examples can be discussed in more depth in person.
 
   
 
