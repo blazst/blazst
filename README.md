@@ -13,7 +13,7 @@ Frontend Developer specializing in web application development using React libra
 [![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
 [![TanStack Query](https://img.shields.io/badge/TanStack_Query-000000?style=for-the-badge&logo=react-query&logoColor=white)](https://react-query.tanstack.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![CSS/SASS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![GIT](https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 
@@ -30,20 +30,40 @@ Frontend Developer specializing in web application development using React libra
   [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
   [![Axios](https://img.shields.io/badge/Axios-35495E?style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
 
-  ## Some live projects
-  
-## Project: GrowHub
 
-## GrowHub 
+# Some Live Projects
 
-- **Laning page:** [growhub.com.pl](https://growhub.com.pl)
+
+## GrowHub
+
+- **Landing Page:** [growhub.com.pl](https://growhub.com.pl)
 - **Application:** [app.growhub.com.pl](https://app.growhub.com.pl)
 
-## Description
-GrowHub is an application designed for business valuation. This project is a web application developed using React with TypeScript for a type-safe development experience. It employs Tailwind CSS for styling, providing a utility-first approach. The application utilizes React Hook Form for efficient form state management.
-In depends of user`s needs he can buy only access to the application or also get consultations. Payment is connected with stripe. We used there an auth provider. After successfull payment magic link is being send to the email provided in the payment. That creates read-only cookie which is authenthicated by an auth provider. After that user sees application, where he can fill 2 forms (handled with react-hook-form) that are send to the API. Backend is calculating everything based on respective formulae. Frontend is fetching the data and displays dashboard with charts, evaluations and possible PDF report. There is also consultations logic, connected with calendly and stripe user can book the consultations with an expert. Table with consultations is displayed to the user, he is able to see the available ones or used. If user has an admin role he is also able to enter the admin panel section, there is table with all users. This table can be exported to .csv file.
+### Description
 
-## Tech Stack
+GrowHub is an innovative application tailored for business valuation. Developed with React and TypeScript, it champions a type-safe development experience. Tailwind CSS lends its utility-first approach to styling, while React Hook Form ensures efficient form state management.
+
+### Authentication and Payment
+
+Secure payment integration via Stripe. A user-friendly authentication provider manages access, sending a magic link after successful payment. This link creates a read-only cookie, authenticated by the provider.
+
+### Form Handling
+
+Choose between basic access or opt for additional consultations. Two forms, powered by react-hook-form, allow users to submit data to the API seamlessly.
+
+### Backend Processing
+
+Backend crunches numbers based on formulas. The frontend fetches and displays data on a dashboard with charts, evaluations, and a downloadable PDF report. The backend is Python with FastAPI, project Dockerized.
+
+### Consultations Logic
+
+A smart consultation logic integrates with Calendly and Stripe. Users book consultations, and a table shows available and used sessions.
+
+### Admin Panel
+
+Admins access a dedicated panel with a user table exportable to a .csv file.
+
+### Tech Stack
 
 - **Framework:** React
 - **Language:** JavaScript/TypeScript
@@ -56,7 +76,59 @@ In depends of user`s needs he can buy only access to the application or also get
 - **Deployment:** Cloudflare Pages
 - **Error Tracking:** Sentry
 
-**Note:** For more specific details about the features, functionalities or some code examples I would be glad to show during the interview.
+## AIsays
+
+- **Application:** [aisays.pl](https://aisays.pl/)
+
+### Description
+
+AIsays, a dynamic web app developed with React and TypeScript, ensures a robust and type-safe development environment. It leverages the Chakra UI library for customizable styling and Tailwind CSS for utility-first styles.
+
+### Form and State Management
+
+Formik handles form input seamlessly, while Jotai facilitates flexible and scalable state management.
+
+### Stylish Icons and UI Elements
+
+Chakra UI Icons and React Icons enhance the visual appeal, offering a wide range of stylish icons.
+
+### Animation and Motion
+
+Framer Motion elevates the user experience with smooth animations and transitions.
+
+### Routing and Navigation
+
+React Router ensures seamless navigation and routing for an intuitive user journey.
+
+### Markdown Rendering
+
+React Markdown enables the presentation of rich text and content formatting.
+
+### Data Query and Fetching
+
+React Query streamlines data fetching and management for a responsive user experience.
+
+### Validation and Schema
+
+Yup simplifies form validation with an intuitive schema definition.
+
+### Deployment and Build
+
+Vite serves as the build tool, delivering fast and efficient development builds. The application is deployed on Cloudflare Pages for reliable hosting and scalability.
+
+### Tech Stack
+
+- **Framework:** React
+- **UI Libraries:** Chakra UI, Tailwind CSS
+- **Form Handling:** Formik + Yup
+- **Data Fetching State Management:** TanStack Query
+- **Routing:** React Router
+- **Build Tool:** Vite
+- **Other Tools:** React-hot-toast
+- **Linting and Formatting:** ESLint, Prettier
+- **Deployment:** Cloudflare Pages
+
+**Note:** Specific details, features, and code examples can be discussed in more depth during an interview.
 
   
 
