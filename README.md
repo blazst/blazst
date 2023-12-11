@@ -47,11 +47,11 @@ Secure payment integration via Stripe. A user-friendly authentication provider m
 
 ### Form Handling
 
-Choose between basic access or opt for additional consultations. Two forms, powered by react-hook-form, allow users to submit data to the API seamlessly.
+Two quite big forms, powered by react-hook-form, allow users to submit data to the API seamlessly.
 
 ### Backend Processing
 
-Backend crunches numbers based on formulas. The frontend fetches and displays data on a dashboard with charts, evaluations, and a downloadable PDF report. The backend is Python with FastAPI, project Dockerized.
+Backend crunches numbers based on formulas. The frontend fetches and displays data on a dashboard with charts, evaluations, and a downloadable PDF report. The backend is Python with FastAPI, project is Dockerized.
 
 ### Consultations Logic
 
