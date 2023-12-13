@@ -39,7 +39,7 @@ Frontend Developer specializing in web application development using React libra
 
 ### Description
 
-GrowHub is an innovative application tailored for business valuation. Developed with React and TypeScript, it champions a type-safe development experience. Tailwind CSS lends its utility-first approach to styling, while React Hook Form ensures efficient form state management.
+GrowHub is an innovative application tailored for business valuation. Developed with React and TypeScript, due to a type-safe development experience. Tailwind CSS lends its utility-first approach to styling, while React Hook Form ensures efficient form state management.
 
 ### Authentication and Payment
 
